@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  color: rgb(220, 220, 220);
+}
+
+body {
+  background-color: #202020;
+}
+
+input:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
